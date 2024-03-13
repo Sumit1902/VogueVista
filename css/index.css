@@ -52,6 +52,12 @@ body {
   width: 100%;
 }
 
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button.normal {
   font-size: 14px;
   font-weight: 600;
@@ -88,6 +94,7 @@ button.white {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     position: sticky;
     left: 0;
+    top: 0;
     z-index: 999;
 }
 
@@ -387,4 +394,116 @@ color: #088178;
   border: 1px solid #088178;
 }
 
+#sm-banner .banner-box2{
+  background-image: url("/img/banner/b10.jpg");
+}
+
 /* Second banner Section End*/
+
+
+/* Third Banner Start */
+
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/img/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2{
+  background-image: url("/img/banner/b4.jpg");
+}
+
+#banner3 .banner-box3{
+  background-image: url("/img/banner/b18.jpg");
+}
+  
+#banner3 h2{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+  
+#banner3 h3{
+  color: #ef3636;
+}
+
+/* Third Banner End */
+
+
+/* Newsletter Section Start */
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("/img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+  
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+  
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+  
+#newsletter p span{
+  color: #ffbd27;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+  
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Newsletter Section End */
+
+
+/* Footer Start */
+
+
+
+/* Footer End */
