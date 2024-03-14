@@ -1,6 +1,7 @@
 # Vogue Vista
 
 Welcome to my Ecommerce Website project! This project is a simple yet powerful demonstration of an online shopping platform built using HTML, CSS, and JavaScript.
+(This design is not mine, I just implemented the design in HTML, CSS, and JavaScript)
 
 ## Features
 
