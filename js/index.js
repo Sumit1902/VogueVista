@@ -1,6 +1,6 @@
 const menu = document.getElementById('bar');
 const nav = document.getElementById('navbar');
-const close = documen.getElementById( 'close' );
+const close = document.getElementById( 'close' );
 
     menu.addEventListener( 'click', () => {
         nav.classList.toggle("active");

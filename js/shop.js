@@ -14,7 +14,7 @@ products.forEach((pro) => {
 // for switching the below small images with the main image
 
 var MainImg = document.getElementById('MainImg');
-var smallImg = document.getElementsByClassName("single-img-col");
+var smallImg = document.getElementsByClassName("small-img");
 
 smallImg[0].addEventListener("click",() =>{
     MainImg.src = smallImg[0].src;

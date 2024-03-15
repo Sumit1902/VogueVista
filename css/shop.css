@@ -139,9 +139,9 @@ color: #088178;
 
 /* Header Section End */
 
-/* Hero Section Start */
+/* Page-header Section Start */
 
-#hero {
+#page-header {
     background-image: url("/img/banner/b1.jpg");
     height: 50vh;
     width: 100%;
@@ -153,11 +153,11 @@ color: #088178;
     justify-content: center;
 }
 
-#hero h2, #hero p {
+#page-header h2, #page-header p {
   color: #ffffff;
 }
 
-/* Hero Section End */
+/* Page Header Section End */
 
 /* Products Section start */
 

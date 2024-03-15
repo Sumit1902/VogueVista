@@ -152,11 +152,6 @@ color: #088178;
     margin-right: 3rem;
 }
 
-#pro-details .single-pro-image{
-    display: flex;
-    margin-right: 50px;
-}
-
 .small-img-group{
     display: flex;
     justify-content: space-between;
@@ -165,6 +160,8 @@ color: #088178;
 .small-img-col{
     flex-basis: 24%;
     cursor: pointer;
+    border: 1px solid #cce7d0;
+    border-radius: 5px;
 }
 
 #pro-details .single-pro-details{
