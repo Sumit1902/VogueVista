@@ -1,0 +1,19 @@
+/* Page-header Section Start */
+
+#page-header {
+    background-image: url("/img/about/banner.png");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-header h2, #page-header p {
+  color: #ffffff;
+}
+
+/* Page Header Section End */
