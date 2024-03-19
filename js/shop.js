@@ -4,7 +4,7 @@ const products = document.querySelectorAll('.pro');
 
 products.forEach((pro) => {
   pro.addEventListener('click', () => {
-    window.location.href = 'shop-product.html';
+    window.location.href = '/html/shop-product.html';
   });
 });
 
