@@ -18,6 +18,7 @@ h1 {
   color: #222;
 }
 
+
 h2 {
   font-size: 46px;
   line-height: 54px;
@@ -86,6 +87,18 @@ button.white {
   border: 1px solid #fff;
   outline: none;
   transition: 0.2s;
+}
+
+.no-cursor{
+  cursor: not-allowed  !important;
+}
+
+.none{
+  display: none;
+}
+
+input[type="radio"]:disabled {
+  opacity: 0.5;
 }
 
 /* Header Section Start */

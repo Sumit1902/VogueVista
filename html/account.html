@@ -68,26 +68,30 @@
             <div class="personal-info">
                     <h4>Personal Information:</h4>
                 <div class="info-input">
-                    <input type="text" placeholder="First Name">    
-                    <input type="text" placeholder="Last Name">
+                    <input type="text" class="no-cursor" placeholder="First Name" value="Sumit" readonly="readonly">    
+                    <input type="text" class="no-cursor" placeholder="Last Name" value="Singh" readonly="readonly">
                 </div>
-                <p>Your Gender:</p>
-                <div class="info-gender">
-                    <input type="radio" name="gender" id="Male"><p>Male</p>
-                    <input type="radio" name="gender" id="Male"><p>Female</p>
+                <h5 style="margin-bottom: .8rem;">Your Gender:</h5>
+                <div class="info-gender no-cursor">
+                    <div class="male">
+                        <input type="radio" name="gender" id="male" disabled="true" checked><p>Male</p>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gender" id="female" disabled="true"><p>Female</p>
+                    </div>
                 </div>
             </div>
-                <div class="email">
-                    <h5>Email Address:</h5>
-                    <input type="email" placeholder="youremail@example.com">  
-                </div>
+            <div class="email">
+                <h5>Email Address:</h5>
+                <input type="email" class="no-cursor" placeholder="youremail@example.com" value="xyz@gmail.com" readonly="readonly">  
+            </div>
             <div class="number">
                 <h5>Mobile Number:</h5>
-                <input type="number" placeholder="youremail@example.com">  
+                <input type="tel" class="no-cursor" placeholder="Your Number" value="1023456789" readonly="readonly">  
             </div>
             <div class="buttons">
-                <button id="edit">Edit</button>
-                <button id="save">Save Changes</button>
+                <button id="edit" class="normal">Edit</button>
+                <button id="save" class="normal none">Save Changes</button>
             </div>
         </div>
     </section>
@@ -145,4 +149,5 @@
     <!-- Footer End -->
 </body>
 <script src="/js/index.js"></script>
+<script src="/js/account.js"></script>
 </html>
