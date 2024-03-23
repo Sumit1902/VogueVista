@@ -40,3 +40,24 @@ function makeUnEditable() {
         input[i].classList.add("no-cursor");
     }
 }
+
+
+
+
+
+// Code for login and register page 
+
+const login = document.getElementById( 'login' );  // Login form ID
+const register = document.getElementById( 'register' );   // Register Form ID
+const signIn = document.getElementById( 'sign-in' ); // to get the span element  with id="sign-in"
+const signUp = document.getElementById( 'sign-up' ); // to get the span element  with id="sign-up"
+
+signUp.addEventListener("click", ()=>{
+    register.classList.remove('none');
+    login.classList.add('none');
+});
+
+signIn.addEventListener("click", ()=>{
+    login.classList.remove('none');
+    register.classList.add('none');
+});
