@@ -25,7 +25,7 @@
                 <li><a href="/html/blog.html">Blog</a></li>
                 <li><a href="/html/about.html">About</a></li>
                 <li><a href="/html/contact.html">Contact</a></li>
-                <li><a  class="active" href="/html/account.html"><i class="fa-regular fa-user"></i></a></li>
+                <li><a href="/html/account.html"><i class="fa-regular fa-user"></i></a></li>
                 <li><a href="/html/cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <!-- <a href="#" id="close"><i class="ri-close-line"></i></a> -->
             </ul>
@@ -38,7 +38,65 @@
     </section>
     <!-- Header End -->
 
-    
+    <!-- Checkout Section Start -->
+    <section id="checkout" class="section-p1">
+        <div id="address">
+            <h3>Billing address</h3>
+            <form action="#">
+                <div class="inputs">
+                    <p>Name</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Company Name</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Street Address</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Apartment, floor, etc.</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Town, City</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Phone Number</p>
+                    <input type="text" required>
+                </div>
+                <div class="inputs">
+                    <p>Email</p>
+                    <input type="email" required>
+                </div>
+                <div class="check-input">
+                    <input type="checkbox">
+                    <p>Save this Information for Faster Checkout</p>
+                </div>
+            </form>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹ 2500</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><Strong>Total</Strong></td>
+                    <td><strong>₹ 2500</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Place Order</button>
+        </div>
+    </section>
+    <!-- Checkout Section End -->
 
     <!-- Footer Start -->
     <footer class="section-p1">

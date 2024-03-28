@@ -1,6 +1,8 @@
 // Code for shop.html
-// for clicking product and redirecting it to shop-product.html
 const products = document.querySelectorAll('.pro');
+const MainImg = document.getElementById('MainImg');
+const smallImg = document.getElementsByClassName("small-img");
+// const proImg = document.querySelectorAll('div-img');
 
 products.forEach((pro) => {
   pro.addEventListener('click', () => {
@@ -10,12 +12,7 @@ products.forEach((pro) => {
 
 
 // Code for shop-product.html
-
 // for switching the below small images with the main image
-
-var MainImg = document.getElementById('MainImg');
-var smallImg = document.getElementsByClassName("small-img");
-
 smallImg[0].addEventListener("click",() =>{
     MainImg.src = smallImg[0].src;
 });
